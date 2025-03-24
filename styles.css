@@ -1,0 +1,75 @@
+body {
+  background-color: #f2eae2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+section {
+  max-width: 350px;
+}
+
+img {
+  height: 342px;
+  width: 100%;
+}
+
+.product {
+  border: solid 1px black;
+  padding: var(--spacing-400, 32px);
+}
+
+.product h4 {
+  color: var(--color-grey, #6c7289);
+  font-family: "Montserrat" sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+  letter-spacing: 5px;
+}
+
+.product h2 {
+  color: var(--color-black, #1c232b);
+
+  /* text-preset-1 */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+}
+
+.product p {
+  color: var(--color-grey, #6c7289);
+
+  /* text-preset-3 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+}
+
+.product .price span {
+  color: var(--color-green-500, #3d8168);
+
+  /* text-preset-1 */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+}
+
+.product .price p{
+    color: var(--color-grey, #6C7289);
+
+/* text-preset-5 */
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 15.6px */
+}
