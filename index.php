@@ -7,9 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head> 
 
 <body>
     <main>
@@ -24,10 +25,22 @@
                     <span>$149.99</span>
                     <p><s>$169.99</s></p>
                 </div>
-                <button> <img src="./assets/icon-cart.svg" alt=""> ADD TO CART</button>
+                <button id="button"> <img src="./assets/icon-cart.svg" alt=""> ADD TO CART</button>
             </div>
         </section>
     </main>
+
+    <aside class="cart-container">
+        <div class="cart">
+            <img src="./assets/image-product-1-thumbnail.jpg" alt="">
+            <div class="cart-info">
+                <p>Gabrielle Essence Eau De Parfum</p>
+                <p>$149.99 x 3 <span>$419.97</span></p>
+            </div>
+            <img id="delete" src="./assets/icon-delete.svg" alt="">
+        </div>
+        <button id="checkout">Checkout</button>
+    </aside>
 </body>
 
 </html>
