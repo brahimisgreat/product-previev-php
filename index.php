@@ -26,21 +26,17 @@
                     <p><s>$169.99</s></p>
                 </div>
                 <button id="button"> <img src="./assets/icon-cart.svg" alt=""> ADD TO CART</button>
+                <div class="count-container">
+                    <img class="img3" src="./assets/image-product-mobile.jpg" alt="image of product">
+                    <button id="minusButton">-</button>
+                    <span id="count"></span>
+                    <button id="plusButton">+</button>
+                </div>
             </div>
         </section>
     </main>
 
-    <aside class="cart-container">
-        <div class="cart">
-            <img src="./assets/image-product-1-thumbnail.jpg" alt="">
-            <div class="cart-info">
-                <p>Gabrielle Essence Eau De Parfum</p>
-                <p>$149.99 x 3 <span>$419.97</span></p>
-            </div>
-            <img id="delete" src="./assets/icon-delete.svg" alt="">
-        </div>
-        <button id="checkout">Checkout</button>
-    </aside>
+   
 </body>
 
 </html>

@@ -16,6 +16,7 @@ body {
   color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 
 }
@@ -102,7 +103,7 @@ section {
   line-height: 120%; /* 15.6px */
 }
 
-button {
+section button {
   display: flex;
   padding: var(--spacing-200, 16px) var(--spacing-400, 32px);
   justify-content: center;
@@ -126,14 +127,23 @@ button:hover {
   cursor: pointer;
 }
 
-.cart-container{
-  position: sticky;
-  background-color: #fff;
-  width: 100%;
-  bottom: 0px;
+.img3{
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.count{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
 }
+
+
+
+
 
 
 /* Responsive */
