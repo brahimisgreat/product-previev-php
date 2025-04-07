@@ -25,7 +25,7 @@
                     <span>$149.99</span>
                     <p><s>$169.99</s></p>
                 </div>
-                <button id="button"> <img src="./assets/icon-cart.svg" alt=""> ADD TO CART</button>
+               <a href="./index copy.php"> <button id="button"> <img src="./assets/icon-cart.svg" alt=""> ADD TO CART</button></a>
                 <div class="count-container">
                     <img class="img3" src="./assets/image-product-mobile.jpg" alt="image of product">
                     <button id="minusButton">-</button>
