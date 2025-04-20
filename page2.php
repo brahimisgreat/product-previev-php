@@ -14,9 +14,9 @@
 
 <body>
     <main>
-        <form action="">
+        <form action="./includes/formhandler.php" method="post">
             <label for="firstname">Firstname?</label>
-            <input type="text" id="name" placehold>
+            <input type="text" id="firstname" name="firstname" placehold>
 
             <label for="lastname">Lastname?</label>
             <input type="text" id="name" name="lastname" placehold>
@@ -29,14 +29,13 @@
                 <option value="Bird">Bird</option>
             </select>
 
-            <button>Submit</button>
+            <button type="submit" name="submit">Submit</button>
             
 
 
             
 
-            
-
+        
         </form>
     </main>
 
